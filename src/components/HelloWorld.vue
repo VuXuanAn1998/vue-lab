@@ -1,8 +1,8 @@
 <template>
   <div>
-    <p>Counter: {{ publishedBooksMessage }}</p>
+    <p class="bg-red-500"> Counter: {{ publishedBooksMessage }}</p>
     <button @click="increment">Increment</button>
-    <button @click="decrement">Decrement</button>
+    <button @click="decrement">Decrement 3</button>
   </div>
 
 </template>
